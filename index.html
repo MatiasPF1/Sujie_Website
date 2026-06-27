@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sujie Li</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="file-tree" aria-label="Site sections">
+        <p class="terminal-path">~/</p>
+        <nav>
+          <a href="#readme">|-- README.md</a>
+          <a href="#favorite">|-- favorite_things/</a>
+          <a href="#notes">|-- notes.md</a>
+          <a href="#gallery">`-- gallery/</a>
+        </nav>
+      </aside>
+
+      <main class="main-column">
+        <header class="topbar">
+          <h1>Sujie Li</h1>
+          <div class="button-row" aria-label="Quick links">
+            <a class="pixel-button" href="mailto:sl11238@nyu.edu">mail</a>
+            <a class="pixel-button" href="#notes">notes</a>
+          </div>
+        </header>
+
+        <section id="readme" class="terminal-window">
+          <h2><span>cat README.md</span></h2>
+          <div class="readme-grid">
+            <div class="readme-copy">
+              <p>
+                I am Sujie Li, a Chinese student at New York University
+                majoring in Economics. I am currently 3/4 of the way through
+                my degree.
+              </p>
+              <p>
+                I am interested in product management, with a focus on
+                understanding user needs, improving everyday experiences, and
+                building thoughtful solutions.
+              </p>
+              <p>
+                This page is my professional portfolio, highlighting my
+                background, interests, and future work.
+              </p>
+            </div>
+            <figure class="portrait-frame">
+              <img src="public/Sujie.jpeg" alt="Portrait of Sujie Li" />
+              <figcaption>public/Sujie.jpeg</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="favorite" class="terminal-window">
+          <h2><span>ls ~/favorite_things/</span></h2>
+          <div class="card-grid">
+            <article class="mini-file favorite-file">
+              <figure class="favorite-photo">
+                <img src="public/Sushi.jpeg" alt="Sushi" />
+                <figcaption>public/Sushi.jpeg</figcaption>
+              </figure>
+              <div class="favorite-copy">
+                <p class="file-name">sushi.txt</p>
+                <p>
+                  I love sushi!!
+                </p>
+              </div>
+            </article>
+            <article class="mini-file favorite-file">
+              <figure class="favorite-photo">
+                <img src="public/FLowers.jpeg" alt="Lilies and daisies" />
+                <figcaption>public/FLowers.jpeg</figcaption>
+              </figure>
+              <div class="favorite-copy">
+                <p class="file-name">flowers.txt</p>
+                <p>
+                  I love flowers, especially lilies and daisies :))
+                </p>
+              </div>
+            </article>
+            <article class="mini-file favorite-file">
+              <figure class="favorite-photo">
+                <img src="public/OliviaRodrigo.jpeg" alt="Olivia Rodrigo" />
+                <figcaption>public/OliviaRodrigo.jpeg</figcaption>
+              </figure>
+              <div class="favorite-copy">
+                <p class="file-name">music.txt</p>
+                <p>
+                  I love Olivia Rodrigo, Taylor Swift, Lorde, and Sabrina
+                  Carpenter!!
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="notes" class="terminal-window">
+          <h2><span>cat notes.md</span></h2>
+          <div class="note-list">
+            <p>
+              <strong>01.</strong> I really want to visit Tibet this year!!
+            </p>
+            <p>
+              <strong>02.</strong> Planning to study abroad in Europe for the
+              Spring 2027 semester!!
+            </p>
+            <p>
+              <strong>03.</strong> I love Jellycats!!
+            </p>
+          </div>
+        </section>
+
+        <section id="gallery" class="terminal-window">
+          <h2><span>ls ~/gallery/</span></h2>
+          <p class="section-intro">
+            A small gallery of places and memories.
+          </p>
+          <div class="gallery-grid" aria-label="Photo gallery">
+            <figure class="photo-tile real-photo wide">
+              <img src="public/NewYork1.png" alt="New York memory" />
+              <figcaption>new_york_001.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/NewYork2.png" alt="New York city moment" />
+              <figcaption>new_york_002.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/NewYork3.png" alt="New York street view" />
+              <figcaption>new_york_003.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Paris1.png" alt="Paris memory" />
+              <figcaption>paris_001.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Paris2.png" alt="Paris city moment" />
+              <figcaption>paris_002.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Paris3.png" alt="Paris view" />
+              <figcaption>paris_003.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Shanghai1.png" alt="Shanghai memory" />
+              <figcaption>shanghai_001.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Shanghai2.png" alt="Shanghai city moment" />
+              <figcaption>shanghai_002.png</figcaption>
+            </figure>
+            <figure class="photo-tile real-photo">
+              <img src="public/Shanghai3.png" alt="Shanghai view" />
+              <figcaption>shanghai_003.png</figcaption>
+            </figure>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
